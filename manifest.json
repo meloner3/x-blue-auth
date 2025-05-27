@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "批量关注助手",
+  "version": "1.2",
+  "description": "一键关注当前页面所有关注按钮，支持随机间隔避免检测",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "批量关注助手"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  }
+} 
