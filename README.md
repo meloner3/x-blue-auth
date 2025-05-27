@@ -71,12 +71,7 @@
 
 插件支持识别以下类型的关注按钮：
 - Twitter/X 的关注按钮
-- 微博关注按钮
-- 其他使用标准选择器的关注按钮：
-  - `button[data-testid$="-follow"]`
-  - `button[aria-label*="关注"]`
-  - `button[aria-label*="Follow"]`
-  - 包含"关注"或"Follow"文本的按钮
+
 
 ## ⚠️ 注意事项
 
