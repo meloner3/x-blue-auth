@@ -28,23 +28,38 @@
 > - 参与功能建议和技术交流
 > - 完全免费，只需要一次简单关注
 
-## 📦 安装方法
+## 🚀 使用方式
 
-### 1. 下载插件文件
-确保您有以下文件：
-- `manifest.json`
-- `popup.html`
-- `popup.js`
-- `content.js`
-- `icon.png` (可选，或使用任意 128x128 的图标)
+### 1. 下载插件
+
+> **请前往插件发布页下载最新版：**  
+> 👉 [点击这里下载 x-blue-auth 批量关注助手 v1.2](https://github.com/meloner3/x-blue-auth/releases/tag/v1.2)
+
+- 进入页面后，下载最新的 `x-blue-auth.zip` 或 `.crx` 文件。
+- 解压后，按照下方安装步骤进行安装。
 
 ### 2. 安装到 Chrome
-1. 打开 Chrome 浏览器
-2. 访问 `chrome://extensions/`
-3. 开启右上角的"开发者模式"
-4. 点击"加载已解压的扩展程序"
-5. 选择包含插件文件的文件夹
-6. 插件安装完成！
+
+1. 打开 Chrome 浏览器，访问 `chrome://extensions/`
+2. 开启右上角的"开发者模式"
+3. 点击"加载已解压的扩展程序"
+4. 选择刚刚解压的插件文件夹
+5. 安装完成后，浏览器右上角会出现插件图标
+
+### 3. 使用插件
+
+1. 打开你想要批量关注的页面（如 Twitter/X 用户列表页等）
+2. 点击浏览器右上角的插件图标，弹出操作界面
+3. 按需设置关注间隔，点击"🚀 开始批量关注"
+4. 按照提示关注作者推特账号（[@meloner6](https://twitter.com/meloner6)），即可无限制使用全部功能
+5. 你也可以在测试页面 `test.html` 体验插件效果
+
+---
+
+## 🔗 相关链接
+
+- [插件发布与下载页面](https://github.com/meloner3/x-blue-auth/releases/tag/v1.2)
+- [作者推特 @meloner6](https://twitter.com/meloner6)
 
 ## 🚀 使用方法
 
